@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.loja{
+    display: flex;
+    flex-direction: column;
+}
+.barra-de-pesquisa input{
+    height: 3em;
+    width: 55vw;
+    border-radius: 0.3em;
+    border: 1px solid crimson
+}
+.logo img{
+    width: 25vw;
+}
+.barra-de-pesquisa{
+    margin: 2em;
+    position: relative;
+    left: 25vw;
+    bottom: 70vh;
+
+}
+
+.quadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px black solid;
+    margin-left: 5vw;
+    margin-right: 10vw;
+    margin-top: 3em;}
